@@ -44,4 +44,3 @@ C       62.209.249.181/32 is directly connected, port1
 C       192.168.100.0/24 is directly connected, GUEST
 S       192.168.253.102/32 [15/0] via IPSEC-USERS tunnel 192.168.253.102, [1/0]
 S       192.168.253.105/32 [15/0] via IPSEC-USERS tunnel 192.168.253.105, [1/0]
-
