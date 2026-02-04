@@ -1,0 +1,47 @@
+Codes: K - kernel, C - connected, S - static, R - RIP, B - BGP
+       O - OSPF, IA - OSPF inter area
+       N1 - OSPF NSSA external type 1, N2 - OSPF NSSA external type 2
+       E1 - OSPF external type 1, E2 - OSPF external type 2
+       i - IS-IS, L1 - IS-IS level-1, L2 - IS-IS level-2, ia - IS-IS inter area
+       V - BGP VPNv4
+       * - candidate default
+
+Routing table for VRF=0
+S*      0.0.0.0/0 [10/0] via 62.209.249.177, port1, [1/0]
+C       10.0.0.0/24 is directly connected, port2
+C       10.0.10.0/24 is directly connected, LACP
+C       10.0.11.0/24 is directly connected, WIFI_USERS
+C       10.0.20.0/24 is directly connected, VOIP
+C       10.0.30.0/24 is directly connected, MGMT
+C       10.0.40.0/24 is directly connected, SRV
+C       10.0.50.0/24 is directly connected, DEVICE
+C       10.0.52.0/24 is directly connected, SHELLY
+C       10.0.60.0/24 is directly connected, PRINTERS
+C       10.0.100.0/24 is directly connected, SVR_INFRA
+C       10.0.105.0/24 is directly connected, SRV-DC
+C       10.0.110.0/24 is directly connected, ABRA
+C       10.0.111.0/24 is directly connected, WEB-ABRA
+C       10.0.120.0/24 is directly connected, NIKOLA
+C       10.0.130.0/24 is directly connected, NIKOLA_DEV
+C       10.0.140.0/24 is directly connected, SVR_MGMT
+C       10.0.150.0/24 is directly connected, ATRIS_BI
+C       10.0.160.0/24 is directly connected, ATRIS_BANK
+C       10.0.170.0/24 is directly connected, ATRIS_SCP
+C       10.0.180.0/24 is directly connected, REVERSE_PROXY
+C       10.0.181.0/24 is directly connected, JUMP
+C       10.0.190.0/24 is directly connected, BACKUP
+C       10.0.195.0/24 is directly connected, NAS
+C       10.0.200.0/24 is directly connected, ZABBIX
+C       10.0.210.0/24 is directly connected, SMTP
+C       10.0.220.0/24 is directly connected, JABLOTRON
+C       10.0.230.0/24 is directly connected, MAILSTORE
+C       10.0.240.0/24 is directly connected, LOG-MANAGEMENT
+C       10.0.250.0/24 is directly connected, DMZ-SVR
+S       10.2.0.0/16 [15/0] via ATRIS_OLOMOUC tunnel 46.13.76.40, [1/0]
+C       10.10.10.0/24 is directly connected, DMZ
+C       62.209.249.176/29 is directly connected, port1
+C       62.209.249.181/32 is directly connected, port1
+C       192.168.100.0/24 is directly connected, GUEST
+S       192.168.253.102/32 [15/0] via IPSEC-USERS tunnel 192.168.253.102, [1/0]
+S       192.168.253.105/32 [15/0] via IPSEC-USERS tunnel 192.168.253.105, [1/0]
+
