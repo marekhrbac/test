@@ -8,6 +8,7 @@ Codes: K - kernel, C - connected, S - static, R - RIP, B - BGP
 
 Routing table for VRF=0
 S*      0.0.0.0/0 [5/0] via 172.17.100.1, wan1, [1/0]
+C       1.1.1.1/32 is directly connected, lo1
 C       172.17.100.0/24 is directly connected, wan1
 C       192.168.1.0/24 is directly connected, internal
 
